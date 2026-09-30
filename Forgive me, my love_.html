@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Forgive me, my love?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<main>
+<span class="chip">A humble confession &amp; peace offering 💌</span>
+<div class="avatar"><img src="img/photo_5305667865367225768_y.jpg" alt="Sad kitten holding a rose"><span>🐾 sorry!</span></div>
+<h1>Forgive me, my love? 🥺</h1>
+<p class="lead">I hate seeing you upset, especially when it's my fault. You deserve the world, endless smiles, and all the warm hugs. I put this together because words over text weren't enough...</p>
+
+<h2>Moments That Mean Everything</h2>
+<p class="sub">Tap &amp; explore our memories💕</p>
+<figure class="polaroid" style="margin-top:0;margin-bottom:34px"><img src="img/photo_5326061044398497608_y.jpg" alt="Dessert table"><p>We are cutte here 🍰 <b>✦</b></p></figure>
+<figure class="polaroid"><img src="img/photo_5326061044398497609_y.jpg" alt="Kitten with a rose"><p>And here 🐾 <b>✦</b></p></figure>
+<figure class="polaroid"><img src="img/photo_5326061044398497610_y.jpg" alt="Kitten with a rose"><p>And even here 🌸 <b>✦</b></p></figure>
+
+<div class="eyebrow">✨ From the bottom of my heart ✨</div>
+<h2 style="margin-top:8px;font-size:27px">Why I'm Truly Sorry</h2>
+<div class="reasons">
+<div class="reason"><div class="num">1</div><div><h3>I lied to you</h3><p>There is no excuse for me I'm an asshole for lying to you about drinking with Yura</p></div></div>
+<div class="reason"><div class="num">2</div><div><h3>Your feelings always come first</h3><p>I promise that i will stop drinking and will find a normal job</p></div></div>
+<div class="reason"><div class="num">3</div><div><h3>A promise to do much better</h3><p>No empty excuses. I promise more patience, double the attention, thoughtful listening, and infinite kisses and hugs whenever you need them.</p></div></div>
+</div>
+
+<div class="banner">Official reconciliation vouchers — special price: 0 CZK</div>
+<div class="voucher"><div class="top"><div><span class="tag">Valid Forever • 24/7</span><h3>Unlimited Warm Hug Pass</h3><p>Extra tight squeeze included • High dopamine guarantee</p></div><div class="price">0<br>CZK<small>Priceless</small></div></div><hr><button class="btn claim" data-t="Hug claimed! 🤗">Claim Hug (0 CZK) 🤗</button></div>
+<div class="voucher"><div class="top"><div><span class="tag">Zero Expiration • Instant</span><h3>Infinite Sweet Kisses Offer</h3><p>Forehead kisses on demand • Unlimited redemption count</p></div><div class="price">0<br>CZK<small>Priceless</small></div></div><hr><button class="btn claim k" data-t="Kiss claimed! 💋">Claim Kiss (0 CZK) 💋</button></div>
+
+<section class="fund">
+<span class="tag" style="background:#ffe0e6;font-size:13px;padding:6px 14px">🍓 Sweet Tooth Reparation</span>
+<h2>Emergency Dessert Fund</h2>
+<p class="sub" style="margin-bottom:0">Because sweet girls deserve sweet treats when boyfriends mess up! 🍰🍩</p>
+<div class="card"><div style="display:flex;justify-content:space-between"><small>APOLOGY COMPENSATION CARD</small><span style="color:var(--plum)">♡</span></div><div class="dots"><span>•••• •••• ••••</span><i>SWEET</i></div><div class="row"><span>HOLDER: MY FAVORITE GIRL</span><span>EXP: NEVER</span></div></div>
+<form id="f">
+<label for="a">Your Card or Account Number (IBAN / Card #)</label>
+<input id="a" placeholder="e.g. 1234 •••• •••• 5678 or CZ65..." autocomplete="off">
+<div class="hint">💳 Enter where I should send treat money immediately!</div>
+<label>Compensation Package</label>
+<div class="pills">
+<button type="button" class="btn pill on">100 UAH (Don't make me poor) 🧋</button>
+<button type="button" class="btn pill">300 UAH (please) 🍰</button>
+<button type="button" class="btn pill wide">👑 Unlimited / You Decide!(but not more than 300UAH)</button></div>
+<label for="e">Your Email Address</label>
+<input id="e" type="email" placeholder="yourname@sweetheart.com">
+<div class="hint">💌 To receive official confirmation &amp; transfer receipt</div>
+<label for="w">Your Special Sweet Wish (Optional)</label>
+<input id="w" placeholder="e.g. Raspberry macarons &amp; iced matcha latte">
+<button class="btn send" type="submit">Send Sweet Compensation &amp; Forgive Me 💖</button>
+<div class="msg" id="m">Wish received! 💌 Your treat is on its way (with a hug).</div>
+</form>
+</section>
+
+<section class="treaty">
+<div class="dove">🕊️</div>
+<h2>Do you accept this peace treaty?</h2>
+<p class="lead" style="font-size:16px;margin-top:0">I promise to love you endlessly and make you smile every day.</p>
+<button class="btn yes" id="yes">Yes, I forgive you ❤️</button>
+<button class="btn think" id="th">Still thinking... (costs +1 hug)</button>
+<div class="sign">Forever yours, with all my heart.</div>
+<div style="margin-top:8px">🌸🌸🌸</div>
+</section>
+</main>
+<div id="win"><div><div style="font-size:60px">💖</div><h2>You forgave me!</h2><p class="lead">I love you. Hugs are on their way. 🤗</p></div></div>
+<script>
+function hearts(n){for(var i=0;i<n;i++){var h=document.createElement('div');h.className='heart';h.textContent=['💖','💕','🌸','💗'][i%4];h.style.left=Math.random()*95+'%';h.style.animationDelay=Math.random()*.8+'s';document.body.appendChild(h);setTimeout(function(x){x.remove()},4200,h)}}
+document.querySelectorAll('.claim').forEach(function(b){b.onclick=function(){b.textContent=b.dataset.t;b.classList.add('done');hearts(12)}});
+var ps=document.querySelectorAll('.pill');ps.forEach(function(p){p.onclick=function(){ps.forEach(function(x){x.classList.remove('on')});p.classList.add('on')}});
+document.getElementById('f').onsubmit=function(e){e.preventDefault();document.getElementById('m').style.display='block';hearts(16)};
+var n=0;document.getElementById('th').onclick=function(){n++;this.textContent='Still thinking... (+'+(n+1)+' hugs owed 🤗)'};
+document.getElementById('yes').onclick=function(){document.getElementById('win').style.display='grid';hearts(30)};
+</script>
+</body></html>
